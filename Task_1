@@ -1,0 +1,28 @@
+Task 1.1.
+  public static int[] masiv (int[] numbers) {
+    // write your code below this line
+int count=0;
+    
+for(int i=0; i<= numbers.len; i++){
+      if(i % 4 = 0 or i % 6 = 0) {
+        count ++;
+    }
+    return count;
+  }
+
+  }
+
+Task 1.2
+function checkPalindrome(str){
+  let reversed = str.split("").reverse().join("")	
+  return str === reversed	
+}	
+let str1 = "anna"	
+let str2 = "banana"	
+let str3 = "kayak"	
+checkPalindrome(str1)	
+// -> true	
+checkPalindrome(str2)	
+// -> false	
+checkPalindrome(str3)	
+// -> true	
